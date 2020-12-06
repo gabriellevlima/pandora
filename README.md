@@ -16,7 +16,7 @@ O projeto tem como objetivo desenvolver uma solução para o combate às Fake Ne
 ## **Descrição do projeto**
 O projeto técnico consistiu nas seguintes etapas:
 
-**1**- Tratamento/Exploração/Visualização das bases de dados (Português e em Inglês)
+*****- Tratamento/Exploração/Visualização das bases de dados (Português e em Inglês)
 
 * Base "tweets" disponibilizada pelo site Aos Fatos
 
