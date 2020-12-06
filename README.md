@@ -18,11 +18,11 @@ O projeto técnico consistiu nas seguintes etapas:
 
 **1**- Tratamento/Exploração/Visualização das bases de dados (Português e em Inglês)
 
-*Base "tweets" disponibilizada pelo site Aos Fatos
+* Base "tweets" disponibilizada pelo site Aos Fatos
 
-*Base "Fake/True" disponibilizada pelo Kaggle
+* Base "Fake/True" disponibilizada pelo Kaggle
 
-*Base "Databrasil" disponibilizado pelo projeto Fake.Br Corpus
+* Base "Databrasil" disponibilizado pelo projeto Fake.Br Corpus
 
 **2**- Contrução e treinamento dos modelos (Naive Baynes, LSTM, Random Forest, Logistic Regression e Decision Tree)
 
