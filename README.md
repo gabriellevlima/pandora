@@ -5,7 +5,7 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
   <a href="#Descrição do projeto">Descrição do projeto</a> •
- <a href="#instalação">Instalação</a> •  
+ <a href="#app">App</a> •  
 </p>
 
 
@@ -25,7 +25,7 @@ O projeto técnico consistiu nas seguintes partes:
 * Desenvolvimento do protótipo (Web App). 
 
 
-## **Instalação**
+## **App**
 
 Para rodar o aplicativo:
 
