@@ -8,3 +8,6 @@
  <a href="#instalação">Instalação</a> •  
  <a href="#autores">Autores</a>
 </p>
+
+<a href="#objetivo">Objetivo</a> •
+O projeto tem como objetivo
