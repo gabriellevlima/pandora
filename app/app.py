@@ -136,22 +136,30 @@ def run():
         input = st.text_input('Sobre o que/quem você gostaria de pesquisar?')
         if st.button('Run'):
             data = pd.read_csv('Dados.csv')
-            random = data[data['original'].str.contains(input)].sample(30)
+            random = data[data['Texto'].str.contains(input)].sample(30)
 
             st.subheader("Dados")
             st.markdown(get_table_download_link(random), unsafe_allow_html=True)
 
+            st.subheader('Top 5 notícias acessadas:')
+
+            my_expander = st.beta_expander("Expand", expanded=True)
+            with my_expander:
+                fake = random[random['Verificador'] == 'Falso']
+                top = fake.sort_values(by=['Popularidade'],ascending=False ).head(5)
+                rank = top[['Texto', 'Verificador']]
+                st.table(rank)
+
             st.subheader('Análise')
             value_counts = random['Verificador'].value_counts()
-            fig = px.pie(names=value_counts.index, values=value_counts.values,  title='Quantidade de notícias:')
+            fig = px.pie(names=value_counts.index, values=value_counts.values,  title='Proporção das notícias:')
             st.plotly_chart(fig)
-            fake = random[random['Verificador'] == 'Falso']
-            counts = fake['Month'].value_counts()
+            counts = fake['Mês'].value_counts()
             figu = px.bar(fake, x=counts.index, y=counts.values, title="Distribuição de notícias falsas",  labels=dict(x="Mês", y="Quantidade de notícias falsas"))
             st.plotly_chart(figu)
 
 
-
+    st.beta_container()
 
 
 if __name__ == "__main__":
