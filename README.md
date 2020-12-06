@@ -22,7 +22,7 @@ O projeto técnico consistiu nas seguintes partes:
 
   -Base "Fake/True" disponibilizada pelo Kaggle
 
-  -Base "Databrasil" disponibilizado pelo projeto Fake.Br Corpus
+  -Base "Databrasil" disponibilizado pelo projeto open source Fake.Br Corpus
 
 
 * Contrução/treinamento/avaliação dos modelos (Naive Bayes, LSTM, Random Forest, Logistic Regression e Decision Tree)
