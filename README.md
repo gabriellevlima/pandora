@@ -18,12 +18,7 @@ O projeto técnico consistiu nas seguintes partes:
 
 * Tratamento/Exploração/Visualização das bases de dados (Português e em Inglês)
 
-  -Base "tweets" disponibilizada pelo site Aos Fatos
-
-  -Base "Fake/True" disponibilizada pelo Kaggle
-
-  -Base "Databrasil" disponibilizado pelo projeto Fake.Br Corpus
-
+  Bases disponibilizadas pelo site Aos Fatos, Kaggle e Fake.Br Corpus
 
 * Contrução/treinamento/avaliação dos modelos (Naive Bayes, LSTM, Random Forest, Logistic Regression e Decision Tree)
 
